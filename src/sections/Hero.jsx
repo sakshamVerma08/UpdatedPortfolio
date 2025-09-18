@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 import AnimatedText from "../components/AnimatedText";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Hero = () => {
   const contextRef = useRef(null);
@@ -11,6 +13,27 @@ const Hero = () => {
      turning ideas into scalable
      digital solutions.
      `;
+
+  useGSAP(() => {
+    const tl = gsap.timeline();
+
+    tl.from(contextRef.current, {
+      y: "50vh",
+      duration: 1,
+      ease: "circ.out",
+    });
+
+    tl.from(
+      headerRef.current,
+      {
+        y: 200,
+        duration: 1,
+        opacity: 0,
+        ease: "circ.out",
+      },
+      "<+0.2"
+    );
+  });
 
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
