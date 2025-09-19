@@ -15,8 +15,7 @@ const Hero = () => {
       Full-stack developer with
          a passion for backend technologies,
          system design, and
-         turning ideas into scalable
-         digital solutions.
+         real time communication.
          `;
 
   return (

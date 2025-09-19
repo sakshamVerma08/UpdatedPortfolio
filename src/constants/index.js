@@ -3,7 +3,7 @@ export const servicesData = [
   {
     title: "FullStack Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Passionate about building robust applications while continuously expanding my technical horizons. Currently diving deep into AI integration, n8n automation, and modern backend technologies like Next.js with PostgreSQL and Prisma. I believe in writing purposeful code that solves real problems—no shortcuts, no compromises, just solid engineering principles applied to create scalable digital solutions.",
     items: [
       {
         title: "Backend Engineering",
@@ -20,63 +20,65 @@ export const servicesData = [
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Backend Architecture & API Development",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Crafting efficient, production-ready APIs with clean architecture and secure coding practices. I focus on building scalable backend systems that handle complex data flows while maintaining optimal performance and reliability.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "RESTful API Design",
+        description: "(Clean Architecture, Status Codes, Resource Management)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Authentication Systems",
+        description: "(JWT, OAuth, Session Management, Role-based Access)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Database Integration",
+        description: "(MongoDB, PostgreSQL, Query Optimization, Data Modeling)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Real-Time Communication",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Building interactive applications that connect users instantly. From live chat systems to real-time dashboards, I leverage WebSockets and modern technologies to create seamless, responsive experiences that keep users engaged and data flowing in real-time.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "WebSocket Integration",
+        description: "(Socket.io, Real-time Data Sync, Live Updates)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Live Chat Systems",
+        description: "(Multi-user Chat, Presence Indicators, Message History)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Real-Time Dashboards",
+        description: "(Live Analytics, Data Streaming, Interactive Widgets)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "AI Integration & Automation",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Exploring the exciting world of AI and workflow automation as a passionate beginner. Currently learning to integrate generative AI capabilities and automated workflows into web applications using modern tools like LangChain, n8n, and containerization with Docker.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Workflow Automation",
+        description: "(n8n Integration, API Orchestration, Learning Phase)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "GenAI Experimentation",
+        description:
+          "(LangChain Basics, AI API Integration, Beginner Projects)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "Containerization",
+        description: "(Docker Fundamentals, Development Environments)",
       },
     ],
   },
 ];
+
 export const projects = [
   {
     id: 1,
@@ -170,6 +172,7 @@ export const projects = [
     ],
   },
 ];
+
 export const socials = [
   { name: "Leetcode", href: "https://leetcode.com/u/sakshamxx2769/" },
   // {
