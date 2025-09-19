@@ -41,7 +41,7 @@ export function Planet(props) {
       },
       "<"
     );
-  });
+  }, []);
   return (
     <group ref={shapeContainer} {...props} dispose={null}>
       <group ref={spheresContainer}>
